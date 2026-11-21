@@ -1,0 +1,21 @@
+.app { max-width: 720px; margin: 0 auto; padding: 24px; font-family: system-ui, sans-serif; color: #e8e8ee; }
+h1 { margin: 0 0 16px; }
+.presets { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.form { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; margin-bottom: 16px; }
+label { display: flex; flex-direction: column; font-size: 12px; gap: 4px; }
+input, select { padding: 6px 8px; background: #1d1d26; color: #e8e8ee; border: 1px solid #3a3a4a; border-radius: 6px; width: 110px; }
+button { padding: 8px 14px; background: #2b2b3a; color: #e8e8ee; border: 1px solid #4a4a60; border-radius: 6px; cursor: pointer; }
+button:hover { background: #3a3a50; }
+.go { background: #3b5bdb; border-color: #3b5bdb; }
+.meta { margin: 8px 0; font-size: 13px; color: #aaa; }
+.controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.controls input[type="range"] { width: 160px; padding: 0; }
+.err { color: #ff6b6b; }
+.sky { width: 100%; max-width: 464px; display: block; border: 1px solid #3a3a4a; }
+.modes { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; }
+.app { max-width: 1100px; }
+.row { display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start; }
+.aladinbox { width: 464px; max-width: 100%; }
+.aladin { width: 464px; height: 464px; max-width: 100%; border: 1px solid #3a3a4a; }
+.chk { flex-direction: row; align-items: center; gap: 6px; font-size: 13px; }
+.chk input { width: auto; }

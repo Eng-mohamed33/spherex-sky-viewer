@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+cutcache/
+cutouts/
+frames/
+*.zip
+*.fits
+*.npz
+/*.gif
+node_modules/
+web/node_modules/
+web/dist/
+.env
